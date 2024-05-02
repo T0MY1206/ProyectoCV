@@ -1,0 +1,13 @@
+body
+{
+    background-color: black;
+}
+.container
+{
+    margin: auto;
+    display: flex;
+    border: 10px aqua solid;
+    margin: 100px 100px;
+    padding:  210px 50px;
+    position: relative;
+}
