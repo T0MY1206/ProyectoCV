@@ -1,13 +1,28 @@
 body
 {
     background-color: black;
+    font-size: large;
+    color: white;
+}
+input
+{
+    border: violet 2px solid;
+    background-color: transparent;
+    margin: 0;
+    display: flex;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+}
+input:focus
+{
+    border: 5px rosybrown dotted;
 }
 .container
 {
-    margin: auto;
     display: flex;
     border: 10px aqua solid;
-    margin: 100px 100px;
-    padding:  210px 50px;
+    margin: auto;
+    padding:  30px 0;
     position: relative;
 }
